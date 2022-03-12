@@ -1,4 +1,4 @@
-package me.zombie_striker.psudocommands;
+package net.numalab.psudo;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class CommandUtils {
+public class PsudoCommandUtils {
 
 	/**
 	 * Use this if you are unsure if a player provided the "@a" tag. This will allow

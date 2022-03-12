@@ -1,0 +1,18 @@
+main: net.numalab.psudo.PsudoCommand
+version: ${project.version}
+name: PsudoCommand
+api-version: 1.13
+authors:
+  - Zombie_Striker
+  - Kamesuta
+commands:
+  psudo:
+    description: Issues another command, as the console, supporting the base-minecraft @ function.
+  psudoAs:
+    description: Issues another command, as the player specified, supporting the base-minecraft @ function.
+permissions:
+  psudocommand.*:
+    description: Gives access to all Psudo commands
+    children:
+      psudocommand.psudo: true
+      psudocommand.psudoas: true
